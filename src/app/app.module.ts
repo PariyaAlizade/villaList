@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { VillaListComponent } from './villa-list/villa-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VillaListComponent
   ],
   imports: [
     BrowserModule,

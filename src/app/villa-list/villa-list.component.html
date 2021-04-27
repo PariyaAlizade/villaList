@@ -1,0 +1,8 @@
+<div class="container-fluid">
+        <div class="col-12" *ngFor="let vila of loadedVilla;">
+           <div >{{ vila.name }}</div>
+           <div *ngFor="let pic of vila.picturesArr;">
+                   <img [src]="pic" />
+           </div>
+        </div>
+</div>
